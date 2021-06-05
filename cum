@@ -253,11 +253,6 @@ function library.new(name, size)
 		Button.Size = UDim2.new(0, 40, 0, 40)
 		Button.BackgroundTransparency = 1
 
-		local Click = Instance.new("ImageLabel")
-		Click.Parent = Button
-		Click.BackgroundTransparency = 1
-		Click.Size = UDim2.new(1, 0, 1, 0)
-		Click.Image = "http://www.roblox.com/asset/?id=5837528348"
 
 		ButtonContainer.MouseButton1Click:connect(function()
 			spawn(function()
@@ -289,7 +284,7 @@ function library.new(name, size)
 		ToggleContainer.Parent = Container
 		ToggleContainer.BackgroundColor3 = library.buttoncontainer
 		ToggleContainer.BorderSizePixel = 0
-		ToggleContainer.Size = UDim2.new(1, -20, 0, 50)
+		ToggleContainer.Size = UDim2.new(1, -20, 0, 25)
 		ToggleContainer.AutoButtonColor = false
 		ToggleContainer.Text = ""
 
