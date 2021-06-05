@@ -533,7 +533,7 @@ function library.new(name, size)
 		Slider.Parent = Container
 		Slider.BackgroundColor3 = library.buttoncontainer
 		Slider.BorderSizePixel = 0
-		Slider.Size = UDim2.new(1, -20, 0, 50)
+		Slider.Size = UDim2.new(1, -20, 0, 25)
 		Slider.AutoButtonColor = false
 		Slider.Text = ""
 		
