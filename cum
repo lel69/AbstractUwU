@@ -104,7 +104,7 @@ function library.new(name, size)
 	CloseUI.Parent = Topbar
 	CloseUI.AnchorPoint = Vector2.new(1, 0.5)
 	CloseUI.Position = UDim2.new(1, 0, 0.5, 0)
-	CloseUI.Image = "http://www.roblox.com/asset/?id=6865882796"
+	CloseUI.Image = "http://www.roblox.com/asset/?id=5840446794"
 	CloseUI.BackgroundTransparency = 1
 	CloseUI.Size = UDim2.new(0, 25, 0, 25)
 	CloseUI.ImageColor3 = Color3.fromRGB(255, 255, 255)
