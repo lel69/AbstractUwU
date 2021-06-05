@@ -244,15 +244,6 @@ function library.new(name, size)
 		Buttondescription.TextXAlignment = Enum.TextXAlignment.Left
 		Buttondescription.TextYAlignment = Enum.TextYAlignment.Top
 
-		local Button = Instance.new("Frame")
-		Button.Name = "Button"
-		Button.Parent = ButtonContainer
-		Button.AnchorPoint = Vector2.new(1, 0)
-		Button.BackgroundColor3 = Color3.fromRGB(50, 70, 200)
-		Button.Position = UDim2.new(1, -5, 0, 5)
-		Button.Size = UDim2.new(0, 40, 0, 40)
-		Button.BackgroundTransparency = 1
-
 
 		ButtonContainer.MouseButton1Click:connect(function()
 			spawn(function()
@@ -380,7 +371,7 @@ function library.new(name, size)
 		Dropdown.Parent = Container
 		Dropdown.BackgroundColor3 = library.buttoncontainer
 		Dropdown.BorderSizePixel = 0
-		Dropdown.Size = UDim2.new(1, -20, 0, 50)
+		Dropdown.Size = UDim2.new(1, -20, 0, 25)
 		Dropdown.AutoButtonColor = false
 		Dropdown.Text = ""
 		
